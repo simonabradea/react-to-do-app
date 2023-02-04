@@ -1,0 +1,26 @@
+.modal-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  background-color: #000000a3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .modal-content {
+    min-width: 25rem;
+    min-height: 10rem;
+    background-color: white;
+    border-radius: 10px;
+    .modal-header {
+      padding: 10px;
+      border-bottom: 1px solid gray;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
